@@ -13,6 +13,7 @@
 		4006F43D21E88AC30061F1AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4006F43C21E88AC30061F1AB /* Assets.xcassets */; };
 		4006F44021E88AC30061F1AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4006F43E21E88AC30061F1AB /* LaunchScreen.storyboard */; };
 		4006F44821E88BBB0061F1AB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4006F44721E88BBB0061F1AB /* README.md */; };
+		4006F44E21E89E4A0061F1AB /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006F44D21E89E4A0061F1AB /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4006F43F21E88AC30061F1AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4006F44121E88AC30061F1AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4006F44721E88BBB0061F1AB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4006F44D21E89E4A0061F1AB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		4006F43421E88AC00061F1AB /* Properties */ = {
 			isa = PBXGroup;
 			children = (
+				4006F44D21E89E4A0061F1AB /* Models.swift */,
 				4006F43521E88AC00061F1AB /* AppDelegate.swift */,
 				4006F43721E88AC00061F1AB /* ViewController.swift */,
 				4006F43921E88AC00061F1AB /* Main.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				4006F43821E88AC00061F1AB /* ViewController.swift in Sources */,
 				4006F43621E88AC00061F1AB /* AppDelegate.swift in Sources */,
+				4006F44E21E89E4A0061F1AB /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,14 +293,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RPK4XC758S;
 				INFOPLIST_FILE = Properties/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.me.auto.Properties;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wm.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,14 +312,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RPK4XC758S;
 				INFOPLIST_FILE = Properties/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.me.auto.Properties;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wm.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
